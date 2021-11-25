@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melíacar</title>
+    <link rel="shortcut icon" href="img/logo1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Tendencia de 2021</a>
+            <a href="#">Sección de damas</a>
+            <a href="#">Contactanos</a>
+        </nav>
+        <section class="textos-header">
+            <h1>¡Viste siempre a la moda con tu página favorita!</h1>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #08f;"></path></svg></div>
+    </header>
+    <main>
+        <section class="contenedor acerca-de">
+            <h2 class="titulo">Acerca de nosotros</h2>
+            <div class="contenedor-acerca-de">
+                <img src="img/clark-street-mercantile-qnKhZJPKFD8-unsplash.jpg" alt="" class="imagen-acerca-de">
+                <div class="contenido-texto">
+                    <h3><span>1</span>La mejor orientación para ti</h3>
+                    <p>La industria de la moda es un espejo en el que mirarse. Es una gran fuente de inspiración para diseñadores de otros ámbitos. Siempre más avanzados, a la vanguardia de otras artes y áreas del diseño. Nuestra página te inspirará para crear tus propios conjuntos además de guiarte a la hora de comprar ropa de mujer. Creamos looks para todas las mujeres, independientemente de su edad o su talla.</p>
+                    <h3><span>2</span>Siempre estamos en constante evolución</h3>
+                    <p>En MELÍACAR ponemos a tu disposición las tendencias más rompedoras en moda ya que somos una página de modas que se preocupa por innovar y ajustarse rápidamente a las modas actuales. Es por ello que todas las semanas incorporamos novedades a nuestra página web.</p>
+                </div>
+            </div>
+        </section>
+        <section class="tendencia-2021">
+            <div class="contenedor">
+                <h2 class="titulo">Tendencias 2021</h2>
+                <div class="galeria-tendencia">
+                    <div class="imagen-tendencia">
+                        <img src="img/tenden1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="galeria-tendencia">
+                    <div class="imagen-tendencia">
+                        <img src="img/tenden2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="galeria-tendencia">
+                    <div class="imagen-tendencia">
+                        <img src="img/tenden3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="galeria-tendencia">
+                    <div class="imagen-tendencia">
+                        <img src="img/tenden4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="galeria-tendencia">
+                    <div class="imagen-tendencia">
+                        <img src="img/tenden5.jpg" alt="">
+                    </div>
+                </div>
+                <div class="galeria-tendencia">
+                    <div class="imagen-tendencia">
+                        <img src="img/tenden6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="secciond-contenedor">
+                <h2 class="titulo">Seccion de damas</h2>
+                <ul>
+                    <li><img src="img/slider/dama1.jpg" alt="" class="img-slider"></li>
+                    <li><img src="img/slider/dama2.jpg" alt="" class="img-slider"></li>
+                    <li><img src="img/slider/dama3.jpg" alt="" class="img-slider"></li>
+                    <li><img src="img/slider/dama4.jpg" alt="" class="img-slider"></li>
+                    <li><img src="img/slider/dama5.jpg" alt="" class="img-slider"></li>
+                    <li><img src="img/slider/dama6.jpg" alt="" class="img-slider"></li>
+
+                </ul>
+            </div>
+        </section>
+        <section id="contacto">
+            <h1>Contáctenos!</h1>
+    
+            <form>
+    
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Ingrese su nombre">
+    
+                <label for="correo">Correo:</label>
+                <input type="text" id="nombre" placeholder="Ingrese su correo">
+    
+                <label for="msj">Mensaje:</label>
+                <textarea id="mensaje" placeholder="Dejenos un mensaje"></textarea>
+    
+                <input type="submit" name="" value="Enviar">
+    
+            </form>
+    
+        </section>
+        <footer>
+            <div class="contenedor-footer">
+                <div class="content-foo">
+            <h2 class="titulo-final">&copy; Melíacar 2021 | Joselin Gonzalez</h2>
+        </footer>
+    </main>
+    <script>
+        $(document).ready(function() {
+            $('.slider1').bxSlider({
+                mode: 'fade',
+            });
+            $('.slider2').bxSlider({
+                mode: 'fade',
+            });
+            $('.slider3').bxSlider({
+                mode: 'fade',
+            });
+        });
+    </script>
+</body>
+</html>
